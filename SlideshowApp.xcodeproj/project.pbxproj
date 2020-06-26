@@ -7,6 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C025B4C824A4E50100C99D24 /* IMG_02.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C025B4C224A4E50000C99D24 /* IMG_02.jpg */; };
+		C025B4C924A4E50100C99D24 /* IMG_05.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C025B4C324A4E50000C99D24 /* IMG_05.jpg */; };
+		C025B4CA24A4E50100C99D24 /* IMG_03.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C025B4C424A4E50000C99D24 /* IMG_03.jpg */; };
+		C025B4CB24A4E50100C99D24 /* IMG_06.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C025B4C524A4E50000C99D24 /* IMG_06.jpg */; };
+		C025B4CC24A4E50100C99D24 /* IMG_04.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C025B4C624A4E50000C99D24 /* IMG_04.jpg */; };
+		C025B4CD24A4E50100C99D24 /* IMG_01.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C025B4C724A4E50100C99D24 /* IMG_01.jpg */; };
 		C066FF8A249F602B00F25D6F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C066FF89249F602B00F25D6F /* AppDelegate.swift */; };
 		C066FF8C249F602B00F25D6F /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C066FF8B249F602B00F25D6F /* SceneDelegate.swift */; };
 		C066FF8E249F602B00F25D6F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C066FF8D249F602B00F25D6F /* ViewController.swift */; };
@@ -17,6 +23,12 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		C025B4C224A4E50000C99D24 /* IMG_02.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = IMG_02.jpg; sourceTree = "<group>"; };
+		C025B4C324A4E50000C99D24 /* IMG_05.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = IMG_05.jpg; sourceTree = "<group>"; };
+		C025B4C424A4E50000C99D24 /* IMG_03.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = IMG_03.jpg; sourceTree = "<group>"; };
+		C025B4C524A4E50000C99D24 /* IMG_06.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = IMG_06.jpg; sourceTree = "<group>"; };
+		C025B4C624A4E50000C99D24 /* IMG_04.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = IMG_04.jpg; sourceTree = "<group>"; };
+		C025B4C724A4E50100C99D24 /* IMG_01.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = IMG_01.jpg; sourceTree = "<group>"; };
 		C066FF86249F602B00F25D6F /* SlideshowApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SlideshowApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C066FF89249F602B00F25D6F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C066FF8B249F602B00F25D6F /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -58,6 +70,12 @@
 		C066FF88249F602B00F25D6F /* SlideshowApp */ = {
 			isa = PBXGroup;
 			children = (
+				C025B4C724A4E50100C99D24 /* IMG_01.jpg */,
+				C025B4C224A4E50000C99D24 /* IMG_02.jpg */,
+				C025B4C424A4E50000C99D24 /* IMG_03.jpg */,
+				C025B4C624A4E50000C99D24 /* IMG_04.jpg */,
+				C025B4C324A4E50000C99D24 /* IMG_05.jpg */,
+				C025B4C524A4E50000C99D24 /* IMG_06.jpg */,
 				C066FF89249F602B00F25D6F /* AppDelegate.swift */,
 				C066FF8B249F602B00F25D6F /* SceneDelegate.swift */,
 				C066FF8D249F602B00F25D6F /* ViewController.swift */,
@@ -128,9 +146,15 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C025B4C924A4E50100C99D24 /* IMG_05.jpg in Resources */,
+				C025B4CC24A4E50100C99D24 /* IMG_04.jpg in Resources */,
 				C066FF96249F602C00F25D6F /* LaunchScreen.storyboard in Resources */,
+				C025B4CA24A4E50100C99D24 /* IMG_03.jpg in Resources */,
 				C066FF93249F602C00F25D6F /* Assets.xcassets in Resources */,
 				C066FF91249F602B00F25D6F /* Main.storyboard in Resources */,
+				C025B4CB24A4E50100C99D24 /* IMG_06.jpg in Resources */,
+				C025B4CD24A4E50100C99D24 /* IMG_01.jpg in Resources */,
+				C025B4C824A4E50100C99D24 /* IMG_02.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

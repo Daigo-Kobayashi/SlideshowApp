@@ -28,6 +28,7 @@ class ResultViewController: UIViewController {
     
     @IBAction func backBton(_ sender: Any) {
         dismiss(animated: true, completion: nil)
+          
     }
     //ResultViewController
     @IBAction func onTapAction(_ sender: Any) {

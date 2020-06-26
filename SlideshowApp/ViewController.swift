@@ -125,18 +125,20 @@ class ViewController: UIViewController {
     //遷移先から戻るsegueを設定
     @IBAction func unwind(_ segue: UIStoryboardSegue) {
        }
-    
-    
-    
-    
     @IBAction func onTapAction(_ sender: Any) {
+        
+        if self.timer != nil {
+                self.timer.invalidate()   // タイマーを停止する
+                self.timer = nil          // startTimer()のself.timer == nilで判断するために、self.timer =　nilとしておく
+            }
         print("onTapAction")//デバッグ用
+        
        self.performSegue(withIdentifier: "result", sender: nil)
+        
     }
-    
-    
      // 遷移元から遷移先にデータ(画像)を渡す
         override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        
             // segueから遷移先のResultViewControllerのインスタンスを取得する
             let resultViewController:ResultViewController = segue.destination as! ResultViewController
             // 表示している画像の番号から名前を取り出し
@@ -146,5 +148,10 @@ class ViewController: UIViewController {
             
     // 遷移先のResultViewControllerで宣言しているselectedImgに値を代入して渡す
             resultViewController.selectedImg = image
+            
+            
+            
+            
+            
         }
 }

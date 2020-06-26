@@ -34,7 +34,7 @@
                                                 <rect key="frame" x="138.66666666666666" y="2" width="113.33333333333334" height="38"/>
                                                 <color key="backgroundColor" white="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="21"/>
-                                                <state key="normal" title="再生/停止"/>
+                                                <state key="normal" title="再生"/>
                                                 <connections>
                                                     <action selector="switchButtonTap:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Wra-iq-Lh9"/>
                                                 </connections>
