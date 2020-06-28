@@ -27,8 +27,11 @@ class ResultViewController: UIViewController {
     //戻る
     
     @IBAction func backBton(_ sender: Any) {
-        dismiss(animated: true, completion: nil)
-          
+    dismiss(animated: true, completion: nil)
+        //dismissはViewControllerを破棄するメソッド
+
+
+    
     }
     //ResultViewController
     @IBAction func onTapAction(_ sender: Any) {

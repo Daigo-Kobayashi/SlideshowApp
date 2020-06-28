@@ -26,14 +26,14 @@ class ViewController: UIViewController {
     //初期画面
     //バンドルした画像ファイルを読み込み
     // Image Viewに画像を設定
-    let image = UIImage(named: "IMG_01")
+    let image = UIImage(named: "IMG_01.jpg")
     imageView.image = image
 }
 //----------------------------------------------------------
     //表示している画像の番号
     var displayImageNo = 0
     //画像の名前の配列
-    let imageNameArray = ["IMG_01", "IMG_02", "IMG_03", "IMG_04", "IMG_05", "IMG_06"]
+    let imageNameArray = ["IMG_01.jpg", "IMG_02.jpg", "IMG_03.jpg", "IMG_04.jpg", "IMG_05.jpg", "IMG_06.jpg"]
     //表示している画像の番号を元に画像を表示する
     func displayImage(){
         //表示している画像の番号から名前を取り出し
@@ -126,10 +126,13 @@ class ViewController: UIViewController {
     @IBAction func unwind(_ segue: UIStoryboardSegue) {
        }
     @IBAction func onTapAction(_ sender: Any) {
-        
+        // タイマーを停止する
         if self.timer != nil {
-                self.timer.invalidate()   // タイマーを停止する
+                self.timer.invalidate()
                 self.timer = nil          // startTimer()のself.timer == nilで判断するために、self.timer =　nilとしておく
+            switchButton.setTitle("再生", for: .normal)//ボタンを再生に戻す
+            nextButton.isEnabled = true //trueに置き換える
+            backButton.isEnabled = true
             }
         print("onTapAction")//デバッグ用
         
